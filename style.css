@@ -17,6 +17,8 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+
+
 .left{
     width: 25vw;
     padding: 10px;
@@ -32,7 +34,6 @@ body{
    gap: 15px;
    padding-top: 14px;
    font-weight:bold;
-   cursor: pointer;
 }
 .home{
     padding: 10px;
@@ -282,7 +283,6 @@ body{
 
 .hamburger{
     display: none;
-    cursor: pointer;
 }
 .hamburgerContainer{
     display: flex;
@@ -342,7 +342,7 @@ body{
         margin: 0;
     }
     .card{
-        width: 44vw;
+        width:55vw;
     }
     .cardContainer{
         margin: 0;
@@ -356,14 +356,11 @@ body{
         gap: 23px;
         align-items: center;
     }
-    .cardContainer{
-        max-height: 50vh;
-    }
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .card{
-        width: auto;
+        width: 84vw;
     }        
 }
